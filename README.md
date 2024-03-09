@@ -33,6 +33,7 @@ INSTALLED_APPS = [
 ### na pasta mysite
 
 - python manage.py migrate
+- python manage.py makemigrations
 
 <!-- *comado para rodar o projeto*livro de prog -->
 
@@ -46,3 +47,25 @@ professores da EBAC como revisores do código
 ```
 
 ## modulo 2
+
+python manage.py createsuperuser
+
+```bash
+Username (leave blank to use 'empreendedor'): gleidsonfagno  
+Email address: gleidsonfagno@gmail.com
+Password: 123456
+Password (again): 
+This password is too short. It must contain at least 8 characters.
+This password is too common.
+This password is entirely numeric.
+Bypass password validation and create user
+```
+
+- python manage.py shell
+
+```shel
+from blog.models import Post
+
+from django.contrib.auth.models import User
+
+```

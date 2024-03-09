@@ -34,7 +34,7 @@ INSTALLED_APPS = [
 
 - python manage.py migrate
 
-<!-- *comado para rodar o projeto* -->
+<!-- *comado para rodar o projeto*livro de prog -->
 
 - python manage.py runserver
 
@@ -44,3 +44,5 @@ Para esse exercício crie uma branch de models, adicione os modelos junto
 com o arquivo de migração, e crie um Pull Request adicionando os
 professores da EBAC como revisores do código
 ```
+
+## modulo 2

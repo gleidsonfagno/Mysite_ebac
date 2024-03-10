@@ -69,3 +69,13 @@ from blog.models import Post
 from django.contrib.auth.models import User
 
 ```
+
+## Testando nodelos Django Testing Library
+
+- pip install pytest-django
+
+- pip install  Faker
+
+- pip install factory_boy
+
+- pip install -U pytest

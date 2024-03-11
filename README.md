@@ -79,3 +79,7 @@ from django.contrib.auth.models import User
 - pip install factory_boy
 
 - pip install -U pytest
+
+## testando requisicoes com Django Views
+
+- python -m pytest

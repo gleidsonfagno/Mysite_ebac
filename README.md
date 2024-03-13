@@ -83,3 +83,7 @@ from django.contrib.auth.models import User
 ## testando requisicoes com Django Views
 
 - python -m pytest
+
+<!-- fagno
+123456admin -->
+
